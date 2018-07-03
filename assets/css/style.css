@@ -1,0 +1,12 @@
+body{
+    background: url("../images/large.png");
+    /* background-image: url("paper.gif"); */
+   
+}
+
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+ 
+}

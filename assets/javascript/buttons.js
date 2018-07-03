@@ -14,8 +14,6 @@ for (var j = 0; j < topics.length; j++) {
     $("#buttons").append(buttontag);
 
 }
-
-
 // $(document).ready(function() {
 // console.log
 // });
@@ -24,6 +22,7 @@ for (var j = 0; j < topics.length; j++) {
 
 $(document).ready(function(){
 $(".button").on("click", function() {
+    $("#pics").empty();
     var query = $(this).attr("data-topics");
     console.log(query);
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
